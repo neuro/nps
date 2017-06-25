@@ -1,0 +1,23 @@
+{
+	"name": "DICOM Metadata",
+	"version": 1,
+	"description": "Indexes frequently used DICOM data fields.",
+	"image": "nps-dicom-indexer",
+	"digest": "sha256:66a5d3ee5be81f0b5cf7309e9bf0d20a4566aaf52c4dbe0c6c0c61e500a6c256",
+	"variables": [
+		{
+			"name": "PatientsName",
+			"description": "The patients last and first name, separated by a comma"
+		},
+        {
+            "name": "PatientsWeight",
+			"description": "The patient's weight in kilograms",
+            "type": "float"
+        },
+        {
+            "name": "PatientsSize",
+			"description": "The patient's height in meters",
+            "type": "float"
+        }
+	]
+}

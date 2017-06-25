@@ -1,0 +1,2 @@
+# NPS Metadata Writer
+This component reads scheduled metadata updated from the NPS Redis instance, verifies the change and writes it to disk. Scale this service up with `docker service scale nps-metadata-writer=x` if the queue gets to long.
